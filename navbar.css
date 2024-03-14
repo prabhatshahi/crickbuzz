@@ -1,0 +1,87 @@
+#landinPageHeader {
+  max-width: 980px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+body {
+  background: #e3e6e3;
+  font-family: helvetica, "Segoe UI", Arial, sans-serif;
+  color: #222;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+#top {
+  background-color: #009270;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#icons {
+  align-self: center;
+  padding: 10px;
+}
+
+#icons > i {
+  color: #fff;
+  padding: 12px 5px;
+  cursor: pointer;
+}
+
+#logo {
+  padding: 15x 0 1px 10px;
+  cursor: pointer;
+}
+.dropbtn {
+  background-color: #009270;
+  color: white;
+  padding: 0px 7px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown_value {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: max-content;
+  z-index: 1;
+}
+
+.dropdown_value a {
+  color: black;
+  font-size: 14px;
+  padding: 6px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropbtn > a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.dropdown_value a:hover {
+  background-color: grey;
+}
+
+.dropdown:hover .dropdown_value {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #028062;
+}
