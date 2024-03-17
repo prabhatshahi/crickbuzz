@@ -1,73 +1,50 @@
-body {
-  margin: 0%;
+#footer {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(74, 74, 74);
 }
-#landingPagefooter {
-  max-width: 980px;
-  margin: 10px auto;
+.logoforfooterimg {
+  margin-left: 250px;
+  margin-top: 90px;
+  width: 140px;
 }
 
-footer {
-  background-color: #4a4a4a;
-  width: 100%;
-  position: sticky;
-  left: 0;
-  bottom: 0;
-}
-#mainFoot {
-  width: 100%;
-  margin: auto;
+.footerlines {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
-#mainFoot > div > img {
-  padding: 10px;
-  padding-top: 40px;
-}
-.footerTopic {
-  color: white;
-  text-align: left;
-  font-weight: bold;
-  padding-top: 20px;
-  /* border:2px white solid; */
-}
-.footerTopic p {
-  font-size: 16px;
-}
-.footerTopic ul {
-  list-style-type: none;
-  font-weight: lighter;
-  margin: 0;
-  padding: 0;
-}
-.footerTopic ul li {
-  padding-bottom: 10px;
-}
-.footerTopic ul li a {
-  text-decoration: none;
-  padding-bottom: 10px;
+
+.footerline1 {
+  margin-left: 480px;
+  margin-top: -60px;
   color: white;
 }
-.footerTopic i {
-  padding: 10px 10px 10px 0px;
+
+.footerline2 {
+  margin-left: 140px;
+  margin-top: -60px;
+  color: white;
 }
-#bottomline {
+
+.footerline3 {
+  margin-left: 140px;
+  margin-top: -60px;
+  color: white;
+}
+.footerh1 {
   color: white;
   text-align: center;
+  margin-top: 100px;
 }
-
-@media only screen and (max-width: 850px) {
-  #mainFoot {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  #mainFoot div:first-child {
-    grid-column: 2/-1;
-  }
-  #mainFoot div {
-    padding-left: 15px;
-  }
-  #landingPagefooter {
-    width: 100%;
-  }
+.footerlines p:hover {
+  cursor: pointer;
+}
+.fas {
+  margin-right: 20px;
+}
+.fab {
+  margin-right: 15px;
+}
+#footer h4 {
+  color: white;
+  text-align: center;
 }
