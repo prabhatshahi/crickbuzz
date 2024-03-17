@@ -15,11 +15,9 @@ table {
   width: 100%;
   margin-top: 20px;
   border-right: 1px solid rgba(130, 128, 128, 0.478);
-  /* border: 1px solid red; */
 }
 
 #container {
-  /* border: 1px solid red; */
   width: 980px;
   margin: auto;
   background-color: white;
@@ -90,7 +88,6 @@ a {
   color: #666;
 }
 
-/* rightbox css starts here */
 #container {
   display: flex;
   justify-content: center;
@@ -153,7 +150,7 @@ a {
 .firstPara:hover {
   text-decoration: underline;
 }
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 280px) {
   #rightBox {
     display: none;
   }
