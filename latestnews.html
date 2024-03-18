@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="latestnews.css" />
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="navBar.css">
+  </head>
+  <body>
+    <div id="nav_container">
+        
+      <div id="nav_Uppercontainer">
+          <ul id="up">
+              <li><img
+                  src="https://m.cricbuzz.com/public/images/cricbuzz/cb_logo.svg"
+                  alt=""></li>
+                  <li><a href="liveScore.html">Live Scores</a></li>
+                      <li><a href="schedule.html">Schedule</a></li>
+                      <li><a href="archives.html">Archives</a></li>
+                      <li><a href="news.html">News <i class="fas fa-sort-down"></i></a>
+                      <div class="drop_Down_Bar">
+                      <ul>
+                          <li>All Stories</li>
+                          <li>Cricbuzz Plus <a href="crickbuzzPlus.html"></a></li>
+                          <li>Latest News <a href="latestnews.html" ></a></li>
+                          <li>Topics</li>
+                          <li>Spotlight</li>
+                          <li>Opinion</li>
+                          <li>Specials</li>
+                          <li>Stats & Analysis</li>
+                          <li>Interviews</li>
+                          <li>Live Blogs</li>
+                          <li>Harsha Bhogle</li>
+                      </ul>
+                  </div>
+              </li>
+              <li><a href="#">Series <i class="fas fa-sort-down"></i></a>
+                  <div class="drop_Down_Bar">
+                      <ul>
+                          <li> India tour of South Africa, 2024-22 </li>
+                          <li> The Ashes, 2024-22 </li>
+                          <li> Zimbabwe tour of Sri Lanka, 2022 </li>
+                          <li> Ireland tour of West Indies, 2022 </li>
+                          <li> ICC Under 19 World Cup 2022 </li>
+                          <li> Super Smash 2024-22 </li>
+                          <li> Big Bash League 2024-22 </li>
+                          <li> Womens Ashes, 2022 </li>
+                          <li> All Series » </li>
+                      </ul>
+                  </div>
+              </li>
+              <li><a href="#">Teams <i class="fas fa-sort-down"></i></a>
+                  <div class="drop_Down_Bar" style="width: 400px;">
+                      <div>
+                          
+                          <ul>
+                              <h4 style="margin-top: 20px; color: black;">TEST TEAMS</h4>
+                              <li>India</li>
+                              <li>Ireland</li>
+                              <li>Pakistan</li>
+                              <li>Australia</li>
+                              <li>Sri lanka</li>
+                              <li>Bangladesh</li>
+                              <li>England</li>
+                              <li>West Indies</li>
+                              <li>South Africa</li>
+                              <li>Zimbabwe</li>
+                              <li>New Zealand</li>
+                              <li>Afganistan</li>
+                          </ul>
+                      </div>
+                      <div >
+                          <ul>
+                              <h4 style="margin-top: 20px; color: black;">ASSOCIATE</h4>
+                              <li>Belgium</li>
+                              <li>Italy</li>
+                              <li>Botswana</li>
+                              <li>Iran</li>
+                              <li>Denmark</li>
+                              <li>Singapore</li>
+                              <li>Namibia</li>
+                              <li>Canada</li>
+                              <li>Uganda</li>
+                              <li>Malaysia</li>
+                              <li>Nepal</li>
+                              <li>Germany</li>
+                          </ul>
+                      </div>
+                  </div>
+              </li>
+              <li><a href="#">Videos <i class="fas fa-sort-down"></i></a>
+                  <div class="drop_Down_Bar">
+                      <ul>
+                          <li>All videos</li>
+                          <li>Catagories</li>
+                          <li>Playlists</li>
+                      </ul>
+              </div>
+              </li>
+              <li><a href="#">Ranking <i class="fas fa-sort-down"></i></a>
+                  <div class="drop_Down_Bar">
+                      <ul>
+                          <li>ICC Rankings Men</li>
+                          <li>ICC Rankings Women</li>
+                      </ul>
+                  </div>
+              </li>
+              <li><a href="#">More <i class="fas fa-sort-down"></i></a>  
+                  <div class="drop_Down_Bar">
+                      <ul>
+                          <li>World Test Championship</li>
+                          <li>World Cup Super League</li>
+                          <li>Quiz</li>
+                          <li>Photos</li>
+                          <li>Mobile Apps</li>
+                          <li>Careers</li>
+                          <li>Contact Us</li>
+                      </ul>
+                  </div>
+              </li> 
+              <li><button id="btn"> Cricbuzz Plus</button></li>
+              <li id="nav_search"><href="#" style="padding: 0px 12px;" ><i class="fas  fa-search" ></i></li>
+              <li id="nav_signup"> <href="#" style="padding: 0px 12px;" ><i class="far fa-user-circle" ></i></li>              
+          </ul>
+      </div>
+
+  <div id="nav_Lowercontainer">
+      <a href="#">MATCHES</a>
+      <a href="#">SL vs ZIM - Live</a>
+      <a href="#">ENGU19 vs CANU19 -</a>
+      <a href="#">AFGU19 vs PNGU19 -</a>
+      <a href="#">RSA vs IND - Preview</a>
+      <a href="#" id="k">BRH vs SYS - Preview</a>
+      <a href="#" id="nav_all">ALL <i class="fas fa-sort-down"></i></a>
+  </div>
+</div>
+    <div class="page">
+      <div id="fb-root"></div>
+      <div id="page-wrapper" class="container" style="display: inline-block">
+        <div class="cb-col cb-col-100 mrgn-btm-5">
+          <div id="matchmenu">
+            <div class="cb-mm-wrp {{direction}}">
+              <div
+                class="cb-scg-drp-dwn cb-col cb-col-100 cb-mnu-{{direction}}"
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div id="strip_wrapper" class="cb-col cb-col-100">
+          <div id="large_strip" class="pull-left ad-unit"></div>
+          <div id="small_strip" class="pull-right ad-unit"></div>
+          <div id="super_strip" class="pull-left ad-unit"></div>
+        </div>
+        <div class="cb-col-100 cb-col cb-nav-main cb-bg-white">
+          <nav class="cb-nav-bar" role="navigation">
+            <a
+              class="cb-nav-tab"
+              href=""
+              title="Cricket News"
+              target="_self"
+              class="hidden-xs"
+              >All Stories</a
+            ><a
+              class="cb-nav-tab active"
+              href=""
+              title="Cricket News"
+              target="_self"
+              class="hidden-xs"
+              >Premium Editorials</a
+            ><a
+              class="cb-nav-tab"
+              href=""
+              title="Latest Cricket News"
+              target="_self"
+              >News</a
+            ><a class="cb-nav-tab" href="" title="Cricket Topics" target="_self"
+              >Topics</a
+            >
+            <a
+              class="cb-nav-tab"
+              href=""
+              title="Latest Editor's Pick"
+              target="_self"
+              >Spotlight</a
+            ><a
+              class="cb-nav-tab"
+              href=""
+              title="Latest Editorials"
+              target="_self"
+              >Opinions</a
+            ><a
+              class="cb-nav-tab"
+              href=""
+              title="Specials Editorial List"
+              target="_self"
+              >Special</a
+            ><a
+              class="cb-nav-tab"
+              href=""
+              title="Stats & Analysis"
+              target="_self"
+              >Stats</a
+            ><a
+              class="cb-nav-tab"
+              href=""
+              title="Cricket Interviews"
+              target="_self"
+              >Interviews</a
+            ><a
+              class="cb-nav-tab"
+              href=""
+              title="Cricket Match Blogs"
+              target="_self"
+              >Live Blogs</a
+            >
+          </nav>
+        </div>
+        <div class="cb-col cb-col-100 cb-bg-white">
+          <div class="cb-col cb-col-67 cb-nws-lft-col">
+            <div
+              id="640x40"
+              class="ad-unit"
+              style="padding: 0; margin: 0; display: block"
+            ></div>
+            <h1 class="cb-font-24 line-ht30">Premium Editorials</h1>
+            <div id="news-list" class="cb-bg-white">
+              <div
+                class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg"
+              >
+                <div class="cb-col cb-col-33 cb-pos-rel">
+                  <a
+                    target="_self"
+                    href="/cricket-news/129743/jonathan-marc-son-of-david-jonny-bairstow-100-tests-dharamsala"
+                    title="Jonathan Marc, son of David"
+                    ><img
+                      height="152"
+                      width="205"
+                      alt="Bairstow posing at the picturesque HPCA stadium ahead of his 100th Test."
+                      title="Bairstow posing at the picturesque HPCA stadium ahead of his 100th Test."
+                      itemprop="image"
+                      class="cb-lst-img"
+                      src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c383770/bairstow-posing-at-the-picture.jpg"
+                      style="padding: 0px" /></a
+                  ><span
+                    class="cb-plus-ico cb-ico-premium cb-plus-no-free-lst-itm"
+                  ></span>
+                </div>
+                <div
+                  class="cb-col-60 cb-nws-lst-rt cb-col cb-col-text-container"
+                >
+                  <div class="cb-nws-time">REFLECTIONS</div>
+                  <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                    <a
+                      
+                      class="cb-nws-hdln-ancr text-hvr-underline"
+                      href="/cricket-news/129743/jonathan-marc-son-of-david-jonny-bairstow-100-tests-dharamsala"
+                      title="Jonathan Marc, son of David"
+                      >Jonathan Marc, son of David</a
+                    >
+                  </h2>
+                  <div class="cb-nws-intr">
+                    Those calling Jonny Bairstow 'the worst England player to
+                    get 100 caps' say more about themselves than they do about a
+                    cricketer performing an act of emulation, or perhaps destiny
+                  </div>
+                  <div><span class="cb-nws-time">Mar 05 2024</span></div>
+                </div>
+              </div>
+              <div
+                class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg"
+              >
+                <div class="cb-col cb-col-33 cb-pos-rel">
+                  <a
+                   
+                   ishan-shreyas-vs-bcci-what-exactly-happened"
+                    title="Ishan, Shreyas vs BCCI: What exactly happened "
+                    ><img
+                      height="152"
+                      width="205"
+                      alt="There is a lingering sense of impression that the players are prioritising IPL over every form of cricket"
+                      title="There is a lingering sense of impression that the players are prioritising IPL over every form of cricket"
+                      itemprop="image"
+                      class="cb-lst-img"
+                      src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c383303/there-is-a-lingering-sense-of.jpg"
+                      style="padding: 0px" /></a
+                  ><span
+                    class="cb-plus-ico cb-ico-premium cb-plus-no-free-lst-itm"
+                  ></span>
+                </div>
+                <div
+                  class="cb-col-60 cb-nws-lst-rt cb-col cb-col-text-container"
+                >
+                  <div class="cb-nws-time">INSIDE STORY</div>
+                  <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                    <a
+                 
+                      class="cb-nws-hdln-ancr text-hvr-underline"
+                      href=""
+                      title="Ishan, Shreyas vs BCCI: What exactly happened "
+                      >Ishan, Shreyas vs BCCI: What exactly happened
+                    </a>
+                  </h2>
+                  <div class="cb-nws-intr">
+                    The inside story on the events that led to a watershed
+                    moment in Indian cricket in the modern era
+                  </div>
+                  <div><span class="cb-nws-time">Feb 29 2024</span></div>
+                </div>
+              </div>
+              <div
+                class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg"
+              >
+                <div
+                  class="cb-col cb-col-33 cb-pos-rel"
+                >
+                 <a
+                    
+                    title="&#39;If someone says something can&#39;t be done, I want to prove that I can do it&#39;"
+                    ><img
+                      height="152"
+                      width="205"
+                      alt="You know those pictures of me that were going around on social media, with the word &#39;UNSOLD&#39; going across it? I took one of those pictures and put it on my dressing table."
+                      title="You know those pictures of me that were going around on social media, with the word &#39;UNSOLD&#39; going across it? I took one of those pictures and put it on my dressing table."
+                      itemprop="image"
+                      class="cb-lst-img"
+                      src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c381083/you-know-those-pictures-of-me.jpg"
+                      style="padding: 0px" /></a
+                  ><span
+                    class="cb-plus-ico cb-ico-premium cb-plus-no-free-lst-itm"
+                  ></span>
+                </div>
+                <div
+                  class="cb-col-60 cb-nws-lst-rt cb-col cb-col-text-container"
+                >
+                  <div class="cb-nws-time">DIALOGUE ROOM</div>
+                  <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                    <a
+                    
+                      class="cb-nws-hdln-ancr text-hvr-underline"
+                    
+                      title="&#39;If someone says something can&#39;t be done, I want to prove that I can do it&#39;"
+                      >'If someone says something can't be done, I want to prove
+                      that I can do it'</a
+                    >
+                  </h2>
+                  <div class="cb-nws-intr">
+                    Ahead of her debut season in the WPL, Sri Lanka captain
+                    Chamari Athapaththu tells Cricbuzz how she used rejection by
+                    franchise leagues to spur her on to greater heights
+                  </div>
+                  <div><span class="cb-nws-time">Feb 20 2024</span></div>
+                </div>
+              </div>
+              <!--  -->
+              <div
+                class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg"
+              >
+                <div
+                  class="cb-col cb-col-33 cb-pos-rel"
+    
+                >
+                  <a
+                    title="A new angle to the Bazball legacy"
+                    ><img
+                      height="152"
+                      width="205"
+                      alt="Tom Hartley, who now has 14 wickets in two matches, might be the first child of Bazball"
+                      title="Tom Hartley, who now has 14 wickets in two matches, might be the first child of Bazball"
+                   
+                      class="cb-lst-img"
+                      src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c379268/tom-hartley-who-now-has-14-wi.jpg"
+                      style="padding: 0px" /></a
+                  ><span
+                    class="cb-plus-ico cb-ico-premium cb-plus-no-free-lst-itm"
+                  ></span>
+                </div>
+                <div
+                  class="cb-col-60 cb-nws-lst-rt cb-col cb-col-text-container"
+                >
+                  <div class="cb-nws-time">REFLECTIONS</div>
+                  <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                    <a
+                      target="_self"
+                      class="cb-nws-hdln-ancr text-hvr-underline"
+                      href="/cricket-news/129472/a-new-angle-to-the-bazball-legacy"
+                      title="A new angle to the Bazball legacy"
+                      >A new angle to the Bazball legacy</a
+                    >
+                  </h2>
+                  <div class="cb-nws-intr">
+                    Bazball may squirm away from easy definitions, but the
+                    performances of England's younger players on the tour of
+                    India is another indicator of its impact
+                  </div>
+                  <div><span class="cb-nws-time">Feb 14 2024</span></div>
+                </div>
+              </div>
+              <div
+                class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg"
+              >
+                <div
+                  class="cb-col cb-col-33 cb-pos-rel"
+                >
+                 <a
+                
+                    title="Why fresh isolation greets South Africa in New Zealand"
+                    ><img
+                      height="152"
+                      width="205"
+                      alt="As England play five Tests in India in a series that shows every sign of being captivating, the Proteas go to New Zealand with a &#34;B&#34; team for two Tests."
+                      title="As England play five Tests in India in a series that shows every sign of being captivating, the Proteas go to New Zealand with a &#34;B&#34; team for two Tests."
+                      itemprop="image"
+                      class="cb-lst-img"
+                      src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c376568/as-england-play-five-tests-in.jpg"
+                      style="padding: 0px" /></a
+                  ><span
+                    class="cb-plus-ico cb-ico-premium cb-plus-no-free-lst-itm"
+                  ></span>
+                </div>
+                <div
+                  class="cb-col-60 cb-nws-lst-rt cb-col cb-col-text-container"
+                >
+                  <div class="cb-nws-time">FEATURED STORY</div>
+                  <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                    <a
+                     
+                      class="cb-nws-hdln-ancr text-hvr-underline"
+                    
+                      title="Why fresh isolation greets South Africa in New Zealand"
+                      >Why fresh isolation greets South Africa in New Zealand</a
+                    >
+                  </h2>
+                  <div class="cb-nws-intr">
+                    With its dwindling authority and fishbowl administrators,
+                    CSA is isolating itself further from the league of cricket
+                    nations
+                  </div>
+                  <div><span class="cb-nws-time">Jan 31 2024</span></div>
+                </div>
+              </div>
+             
+             
+            
+              <div
+                class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg"
+              >
+                <div
+                  class="cb-col cb-col-33 cb-pos-rel"
+                 
+                >
+                 
+                 <a
+                  
+                    
+                    title="The merciless expectations haunting Kohli and Maxwell"
+                    ><span
+                    class="cb-plus-ico cb-ico-premium cb-plus-no-free-lst-itm"
+                  ></span>
+                </div>
+                <div
+                  class="cb-col-60 cb-nws-lst-rt cb-col cb-col-text-container"
+                >
+                  <div class="cb-nws-time">REFLECTIONS</div>
+                  <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                    <a
+                      target="_self"
+                      class="cb-nws-hdln-ancr text-hvr-underline"
+                      href="/cricket-news/128664/the-merciless-expectations-haunting-kohli-and-maxwell"
+                      title="The merciless expectations haunting Kohli and Maxwell"
+                      >The merciless expectations haunting Kohli and Maxwell</a
+                    >
+                  </h2>
+                  <div class="cb-nws-intr">
+                    In the rarified air of top-level cricket, it's worth pausing
+                    to appreciate just what it takes for the game's best players
+                    to do what they do
+                  </div>
+                  <div><span class="cb-nws-time">Nov 30 2023</span></div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="cb-col cb-col-33 cb-col-rt">
+            <div
+              id="mpu"
+              class="ad-unit cb-col cb-col-100"
+              style="min-height: 250px"
+            ></div>
+            <div
+              class="cb-col cb-col-100 cb-sr-hist-pad"
+              id="latest-photos-mod"
+              gtm-label="news list"
+            >
+              <h4 class="cb-ltst-hdr">LATEST PHOTOS</h4>
+              <div
+                class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-sm"
+              >
+                <div
+                  class="cb-col cb-col-33 cb-pos-rel"
+                 
+                >
+               <a
+                    title="WPL 2024 - Winning Moments"
+                    ><img
+                      height="77"
+                      width="100"
+                      alt="WPL 2024 - Winning Moments"
+                      title="WPL 2024 - Winning Moments"
+                      itemprop="image"
+                      class="cb-lst-img"
+                      src="https://static.cricbuzz.com/a/img/v1/100x77/i1/c386142/wpl-2024-winning-moments.jpg"
+                      style="padding: 0px"
+                  /></a>
+                </div>
+                <div
+                  class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container"
+                >
+                  <div class="cb-ltst-wgt-hdr">
+                    <a
+                     
+                      class="cb-nws-hdln-ancr text-hvr-underline"
+                      title="WPL 2024 - Winning Moments"
+                      >WPL 2024 - Winning Moments</a
+                    >
+                  </div>
+                  <div><span class="cb-nws-time">Sun, Mar 17 2024</span></div>
+                </div>
+              </div>
+              <div
+                class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-sm"
+              >
+                <div
+                  class="cb-col cb-col-33 cb-pos-rel"
+                  
+                >
+                  <a
+                    title="India vs England, 5th Test, Day 3"
+                    ><img
+                      height="77"
+                      width="100"
+                      alt="India vs England, 5th Test, Day 3"
+                      title="India vs England, 5th Test, Day 3"
+                      itemprop="image"
+                      class="cb-lst-img"
+                      src="https://static.cricbuzz.com/a/img/v1/100x77/i1/c385023/india-vs-england-5th-test-da.jpg"
+                      style="padding: 0px"
+                  /></a>
+                </div>
+                <div
+                  class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container"
+                >
+                  <div class="cb-ltst-wgt-hdr">
+                    <a
+                      
+                      class="cb-nws-hdln-ancr text-hvr-underline"
+                
+                      title="India vs England, 5th Test, Day 3"
+                      >India vs England, 5th Test, Day 3</a
+                    >
+                  </div>
+                  <div><span class="cb-nws-time">Sat, Mar 09 2024</span></div>
+                </div>
+              </div>
+              <div
+                class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-sm"
+              >
+                <div
+                  class="cb-col cb-col-33 cb-pos-rel"
+                
+                >
+                 <a
+                 
+                    title="India vs England, 5th Test, Day 2 "
+                    ><img
+                      height="77"
+                      width="100"
+                      alt="India vs England, 5th Test, Day 2 "
+                      title="India vs England, 5th Test, Day 2 "
+                      itemprop="image"
+                      class="cb-lst-img"
+                      src="https://static.cricbuzz.com/a/img/v1/100x77/i1/c384699/india-vs-england-5th-test-da.jpg"
+                      style="padding: 0px"
+                  /></a>
+                </div>
+                <div
+                  class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container"
+                >
+                  <div class="cb-ltst-wgt-hdr">
+                    <a
+                     
+                      class="cb-nws-hdln-ancr text-hvr-underline"
+                    
+                      title="India vs England, 5th Test, Day 2 "
+                      >India vs England, 5th Test, Day 2
+                    </a>
+                  </div>
+                  <div><span class="cb-nws-time">Fri, Mar 08 2024</span></div>
+                </div>
+              </div>
+              <div
+                class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-sm"
+              >
+                <div
+                  class="cb-col cb-col-33 cb-pos-rel"
+                 
+                >
+                  <a
+                
+                   
+                    title="India vs England, 5th Test, Day 1 "
+                    ><img
+                      height="77"
+                      width="100"
+                      alt="India vs England, 5th Test, Day 1 "
+                      title="India vs England, 5th Test, Day 1 "
+                      itemprop="image"
+                      class="cb-lst-img"
+                      src="https://static.cricbuzz.com/a/img/v1/100x77/i1/c384171/india-vs-england-5th-test-da.jpg"
+                      style="padding: 0px"
+                  /></a>
+                </div>
+                <div
+                  class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container"
+                >
+                  <div class="cb-ltst-wgt-hdr">
+                    <a
+                      
+                      title="India vs England, 5th Test, Day 1 "
+                      >India vs England, 5th Test, Day 1
+                    </a>
+                  </div>
+                  <div><span class="cb-nws-time">Thu, Mar 07 2024</span></div>
+                </div>
+              </div>
+              <div
+                class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-sm"
+              >
+                <div
+                  class="cb-col cb-col-33 cb-pos-rel"
+                  
+                >
+                  <a
+                    target="_self"
+                   
+                    title="India vs England, 4th Test, Day 4"
+                    ><img
+                      height="77"
+                      width="100"
+                      alt="India vs England, 4th Test, Day 4"
+                      title="India vs England, 4th Test, Day 4"
+                      itemprop="image"
+                      class="cb-lst-img"
+                      src="https://static.cricbuzz.com/a/img/v1/100x77/i1/c382810/india-vs-england-4th-test-da.jpg"
+                      style="padding: 0px"
+                  /></a>
+                </div>
+                <div
+                  class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container"
+                >
+                  <div class="cb-ltst-wgt-hdr">
+                    <a
+                    
+                      class="cb-nws-hdln-ancr text-hvr-underline"
+                      
+                      
+                      >India vs England, 4th Test, Day 4</a
+                    >
+                  </div>
+                  <div><span class="cb-nws-time">Mon, Feb 26 2024</span></div>
+                </div>
+              </div>
+              <div
+                class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-sm"
+              >
+                <div
+                  class="cb-col cb-col-33 cb-pos-rel"
+                 
+                >
+                 <img
+                      height="77"
+                      width="100"
+                      alt="India vs England, 4th Test, Day 3"
+                      title="India vs England, 4th Test, Day 3"
+                      itemprop="image"
+                      class="cb-lst-img"
+                      src="https://static.cricbuzz.com/a/img/v1/100x77/i1/c382397/india-vs-england-4th-test-da.jpg"
+                      style="padding: 0px"
+                  /></a>
+                </div>
+                <div
+                  class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container"
+                >
+                  <div class="cb-ltst-wgt-hdr">
+                    <a
+                      >India vs England, 4th Test, Day 3</
+                    >
+                  </div>
+                  <div><span class="cb-nws-time">Sun, Feb 25 2024</span></div>
+                </div>
+              </div>
+              <div class="cb-col cb-col-100 cb-more-btn-cntnr">
+                <a title="Click to view more Photos" class="cb-more-btn"
+                  >More Photos</a
+                >
+              </div>
+            </div>
+            <div
+              id="mpu2"
+              class="ad-unit cb-col cb-col-100 cb-nav-hdr"
+              style="margin-top: 5px"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="logoforfooter">
+          <img width="100px" class="logoforfooterimg" src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
+      </div>
+      <div class="footerlines">
+          <div class="footerline1">
+               <h3>MOBILE SITE & APPS</h3>  
+           
+             <p><i class="fas fa-globe"></i>m.cricbuzz.com</p> 
+              <p> <i class="fas fa-robot"></i>Android</p>
+              <p>  <i class="fas fa-apple-alt"></i></i> iOS</p>
+          </div>
+
+          <div class="footerline2">
+              <h3>FOLLOW US ON</h3>
+              <p> <i class="fab fa-facebook-f"></i>facebook</p>
+            
+              <p> <i class="fab fa-youtube"></i>youtube</p>
+              <p> <i class="fab fa-pinterest"></i>Pinterest</p>
+                 <p> <i class="fab fa-twitter-square"></i>twitter</p>
+          </div>
+
+          <div class="footerline3">
+              <h3>COMPANY</h3>
+              <p>Careers</p>
+              <p>Advertise</p>
+              <p>Privacy Policy</p>
+              <p>Terms of Use</p>
+              <p>Cricbuzz TV Ads</p>
+             
+          </div>
+          
+
+      </div>
+      <h4>© 2024 Cricbuzz.com, By Prabhat Ranjan & Teams  All rights reserved | The Times of India | Navbharat Times</h4>
+  </div>
+  </body>
+</html>
+<script src="NavBar.js"></script>

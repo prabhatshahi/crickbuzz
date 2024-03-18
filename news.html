@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/cb_favicon.ico" />
+    <link rel="stylesheet" href="news.css" />
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <title itemprop="name">
+        Latest and breaking Cricket News - Cricbuzz | Cricbuzz.com
+    </title>
+</head>
+<body>
+    <div id="nav_container">
+        <div id="nav_Uppercontainer">
+            <ul id="up">
+                <li><img id="homepage" src="https://m.cricbuzz.com/public/images/cricbuzz/cb_logo.svg" alt=""></li>
+                <li><a href="liveScore.html">Live Scores</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="archives.html">Archives</a></li>
+                <li><a href="">News <i class="fas fa-sort-down"></i></a>
+                    <div class="drop_Down_Bar">
+                        <ul>
+                            <li>All Stories</li>
+                            <li>Cricbuzz Plus</li>
+                            <li>Latest News</li>
+                            <li>Topics</li>
+                            <li>Spotlight</li>
+                            <li>Opinion</li>
+                            <li>Specials</li>
+                            <li>Stats & Analysis</li>
+                            <li>Interviews</li>
+                            <li>Live Blogs</li>
+                            <li>Harsha Bhogle</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Series <i class="fas fa-sort-down"></i></a>
+                    <div class="drop_Down_Bar">
+                        <ul>
+                            <li> India tour of South Africa, 2021-22 </li>
+                            <li> The Ashes, 2021-22 </li>
+                            <li> Zimbabwe tour of Sri Lanka, 2022 </li>
+                            <li> Ireland tour of West Indies, 2022 </li>
+                            <li> ICC Under 19 World Cup 2022 </li>
+                            <li> Super Smash 2021-22 </li>
+                            <li> Big Bash League 2021-22 </li>
+                            <li> Womens Ashes, 2022 </li>
+                            <li> All Series » </li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Teams <i class="fas fa-sort-down"></i></a>
+                    <div class="drop_Down_Bar" style="width: 400px;">
+                        <div>
+
+                            <ul>
+                                <h4 style="margin-top: 20px; color: black;">TEST TEAMS</h4>
+                                <li>India</li>
+                                <li>Ireland</li>
+                                <li>Pakistan</li>
+                                <li>Australia</li>
+                                <li>Sri lanka</li>
+                                <li>Bangladesh</li>
+                                <li>England</li>
+                                <li>West Indies</li>
+                                <li>South Africa</li>
+                                <li>Zimbabwe</li>
+                                <li>New Zealand</li>
+                                <li>Afganistan</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <h4 style="margin-top: 20px; color: black;">ASSOCIATE</h4>
+                                <li>Belgium</li>
+                                <li>Italy</li>
+                                <li>Botswana</li>
+                                <li>Iran</li>
+                                <li>Denmark</li>
+                                <li>Singapore</li>
+                                <li>Namibia</li>
+                                <li>Canada</li>
+                                <li>Uganda</li>
+                                <li>Malaysia</li>
+                                <li>Nepal</li>
+                                <li>Germany</li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="">Videos <i class="fas fa-sort-down"></i></a>
+                    <div class="drop_Down_Bar">
+                        <ul>
+                            <li>All videos</li>
+                            <li>Catagories</li>
+                            <li>Playlists</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">Ranking <i class="fas fa-sort-down"></i></a>
+                    <div class="drop_Down_Bar">
+                        <ul>
+                            <li>ICC Rankings Men</li>
+                            <li>ICC Rankings Women</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">More <i class="fas fa-sort-down"></i></a>
+                    <div class="drop_Down_Bar">
+                        <ul>
+                            <li>World Test Championship</li>
+                            <li>World Cup Super League</li>
+                            <li>Quiz</li>
+                            <li>Photos</li>
+                            <li>Mobile Apps</li>
+                            <li>Careers</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                </li>
+                <li><button id="btn">Cricbuzz Plus</button></li>
+                <li id="nav_search">
+                    <href="#" style="padding: 0px 12px;"><i class="fas  fa-search"></i>
+                </li>
+                <li id="nav_signup">
+                    <href="#" style="padding: 0px 12px;"><i class="far fa-user-circle"></i>
+                </li>
+            </ul>
+        </div>
+
+        <div id="nav_Lowercontainer">
+            <a href="">MATCHES</a>
+            <a href="">SL vs ZIM - Live</a>
+            <a href="">ENGU19 vs CANU19 -</a>
+            <a href="">AFGU19 vs PNGU19 -</a>
+            <a href="">RSA vs IND - Preview</a>
+            <a href="" id="k">BRH vs SYS - Preview</a>
+            <a href="" id="nav_all">ALL <i class="fas fa-sort-down"></i></a>
+        </div>
+    </div>
+    <div class="page">
+        <div id="fb-root"></div>
+        <div id="page-wrapper" class="container" style="display: inline-block">
+            <div id="strip_wrapper" class="cb-col cb-col-100">
+                <div id="large_strip" class="pull-left ad-unit"></div>
+                <div id="small_strip" class="pull-right ad-unit"></div>
+                <div id="super_strip" class="pull-left ad-unit"></div>
+            </div>
+            <div class="cb-col-100 cb-col cb-nav-main cb-bg-white">
+                <nav class="cb-nav-bar" role="navigation">
+                    <a class="cb-nav-tab active" href="#" title="Cricket News">All Stories</a><a class="cb-nav-tab"
+                        href="" title="Cricket News">Premium Editorials</a><a
+                        class="cb-nav-tab" href="#" title="Latest Cricket News">News</a><a class="cb-nav-tab"
+                        href="" title="Cricket Topics">Topics</a>
+                    <a class="cb-nav-tab" href="#" title="Latest Editor's Pick">Spotlight</a><a class="cb-nav-tab"
+                        href="#" title="Latest Editorials">Opinions</a><a class="cb-nav-tab"
+                        href="" title="Specials Editorial List">Special</a><a
+                        class="cb-nav-tab" href="#" title="Stats & Analysis">Stats</a><a class="cb-nav-tab"
+                        href="" title="Cricket Interviews">Interviews</a><a
+                        class="cb-nav-tab" href="#" title="Cricket Match Blogs">Live Blogs</a>
+                </nav>
+            </div>
+            <div class="cb-col cb-col-100 cb-bg-white">
+                <div class="cb-col cb-col-67 cb-nws-lft-col">
+                    <div id="640x40" class="ad-unit" style="padding: 0; margin: 0; display: block"></div>
+                    <h1 class="cb-font-24 line-ht30">Cricket News and Editorials</h1>
+                    <div id="news-list" class="cb-bg-white">
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg">
+                            <div class="cb-col cb-col-33 cb-pos-rel">
+                                <meta itemprop="width" content="205" />
+                                <meta itemprop="height" content="152" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/205x152/i1/c386071/madushanka-will-not-play-the-f.jpg" />
+                                <a href="#" title="Madushanka sidelined with hamstring injury"><img height="152"
+                                        width="205" alt="Madushanka will not play the final ODI."
+                                        title="Madushanka will not play the final ODI." class="cb-lst-img"
+                                        src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c386071/madushanka-will-not-play-the-f.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-nws-time">
+                                    <a class="cb-text-link" href="" title="NEWS">NEWS</a><span
+                                        class="cb-dot">&nbsp;&#8226;&nbsp;</span>INJURY
+                                    SETBACK
+                                </div>
+                                <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline" href="3"
+                                        title="Madushanka sidelined with hamstring injury">Madushanka sidelined with
+                                        hamstring injury</a>
+                                </h2>
+                                <div class="cb-nws-intr">
+                                    The Sri Lanka pacer will not play the final ODI against
+                                    Bangladesh
+                                </div>
+                                <div><span class="cb-nws-time">37m ago</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg">
+                            <div class="cb-col cb-col-33 cb-pos-rel">
+                                <meta itemprop="width" content="205" />
+                                <meta itemprop="height" content="152" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/205x152/i1/c386067/kl-rahul-will-be-batting-in-th.jpg" />
+                                <a href=""
+                                    title="Rahul in focus as LSG look to go the distance"><img height="152" width="205"
+                                        alt="KL Rahul will be batting in the middle order this time."
+                                        title="KL Rahul will be batting in the middle order this time."
+                                        class="cb-lst-img"
+                                        src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c386067/kl-rahul-will-be-batting-in-th.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-nws-time">
+                                    FEATURES<span class="cb-dot">&nbsp;&#8226;&nbsp;</span>IPL
+                                    2024
+                                </div>
+                                <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="Rahul in focus as LSG look to go the distance">Rahul in focus as LSG look
+                                        to go the distance</a>
+                                </h2>
+                                <div class="cb-nws-intr">
+                                    Having finished third in successive seasons, Lucknow Super
+                                    Giants will be aiming for that final push to challenge for
+                                    the title
+                                </div>
+                                <div><span class="cb-nws-time">3h ago</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="205" />
+                                <meta itemprop="height" content="152" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/205x152/i1/c386066/chasing-186-islamabad-united.jpg" />
+                                <a href=""
+                                    title="Imad, Haider script stunning turnaround to put Islamabad in final"><img
+                                        height="152" width="205"
+                                        alt="Chasing 186, Islamabad United were 50/4 at one stage before Imad Wasim and Haider Ali led the recovery"
+                                        title="Chasing 186, Islamabad United were 50/4 at one stage before Imad Wasim and Haider Ali led the recovery"
+                                        itemprop="image" class="cb-lst-img"
+                                        src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c386066/chasing-186-islamabad-united.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-nws-time">
+                                    REPORTS<span class="cb-dot">&nbsp;&#8226;&nbsp;</span>PSL
+                                    2024
+                                </div>
+                                <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="Imad, Haider script stunning turnaround to put Islamabad in final">Imad,
+                                        Haider script stunning turnaround to put Islamabad
+                                        in final</a>
+                                </h2>
+                                <div class="cb-nws-intr">
+                                    Saim Ayub's heroics with bat and ball in the powerplay went
+                                    in vain as Islamabad United prevailed in the second
+                                    Eliminator
+                                </div>
+                                <div><span class="cb-nws-time">4h ago</span></div>
+                            </div>
+                        </div>
+                       
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg">
+                            <div class="cb-col cb-col-33 cb-pos-rel" >
+                                <meta itemprop="width" content="205" />
+                                <meta itemprop="height" content="152" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/205x152/i1/c386028/lanning-and-mandhana-were-effu.jpg" />
+                                <a href=""
+                                    title="Amidst shared admiration Lanning and Mandhana eye top prize"><img
+                                        height="152" width="205"
+                                        alt="Lanning and Mandhana were effusive in praise of each other"
+                                        title="Lanning and Mandhana were effusive in praise of each other"
+                                        itemprop="image" class="cb-lst-img"
+                                        src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c386028/lanning-and-mandhana-were-effu.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-nws-time">
+                                    MATCH FEATURES<span class="cb-dot">&nbsp;&#8226;&nbsp;</span>WPL 2024 FINAL
+                                </div>
+                                <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href="#"
+                                        title="Amidst shared admiration Lanning and Mandhana eye top prize">Amidst
+                                        shared admiration Lanning and Mandhana eye top
+                                        prize</a>
+                                </h2>
+                                <div class="cb-nws-intr">
+                                    The two captains have been effusive in praise of each other
+                                    ahead of the WPL final
+                                </div>
+                                <div><span class="cb-nws-time">13h ago</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="205" />
+                                <meta itemprop="height" content="152" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/205x152/i1/c386026/litton-das-has-gone-without-a.jpg" />
+                                <a href="#"
+                                    title="What has gone wrong with Litton Das?"><img height="152" width="205"
+                                        alt="Litton Das has gone without a fifty in his last 10 ODI innings"
+                                        title="Litton Das has gone without a fifty in his last 10 ODI innings"
+                                        itemprop="image" class="cb-lst-img"
+                                        src="https://static.cricbuzz.com/a/img/v1/205x152/i1/c386026/litton-das-has-gone-without-a.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-nws-time">
+                                    <a class="cb-text-link" href="/cricket-news/editorial/editorial-list"
+                                        title="OPINIONS">OPINIONS</a><span class="cb-dot">&nbsp;&#8226;&nbsp;</span>SRI
+                                    LANKA
+                                    TOUR OF BANGLADESH, 2024
+                                </div>
+                                <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="What has gone wrong with Litton Das?">What has gone wrong with Litton
+                                        Das?</a>
+                                </h2>
+                                <div class="cb-nws-intr">
+                                    Considered the most talented of batters in the current
+                                    generation of Bangladesh cricket, he now finds himself left
+                                    out of the Bangladesh ODI squad
+                                </div>
+                                <div><span class="cb-nws-time">15h ago</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="205" />
+                                <meta itemprop="height" content="152" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/205x152/i1/c385959/perhaps-for-the-first-time-in.jpg" />
+                                <a href=""
+                                    title="Can Starc&#39;s return help KKR mount a title challenge?"><img height="152"
+                                        width="205"
+                                        alt="Perhaps for the first time in this cycle, Kolkata Knight Riders look ready to compete against the big boys again for the title"
+                                        title="Perhaps for the first time in this cycle, Kolkata Knight Riders look ready to compete against the big boys again for the title"
+                                        itemprop="image" class="cb-lst-img lazy-loading"
+                                        source="https://static.cricbuzz.com/a/img/v1/205x152/i1/c385959/perhaps-for-the-first-time-in.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-nws-time">
+                                    FEATURES<span class="cb-dot">&nbsp;&#8226;&nbsp;</span>IPL
+                                    2024 - TEAM PREVIEWS
+                                </div>
+                                <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="Can Starc&#39;s return help KKR mount a title challenge?">Can Starc's
+                                        return help KKR mount a title challenge?</a>
+                                </h2>
+                                <div class="cb-nws-intr">
+                                    While Starc's much-anticipated IPL comeback strengthens
+                                    KKR's bowling attack, Shreyas Iyer's return will bolster
+                                    their inconsistent top order
+                                </div>
+                                <div><span class="cb-nws-time">16h ago</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="205" />
+                                <meta itemprop="height" content="152" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/205x152/i1/c385897/jay-shah-confirmed-to-cricbuzz.jpg" />
+                                <a href=""
+                                    title="Jay Shah denies IPL shift to UAE"><img height="152" width="205"
+                                        alt="Jay Shah confirmed to Cricbuzz that IPL 2024 will not be shifted to the UAE"
+                                        title="Jay Shah confirmed to Cricbuzz that IPL 2024 will not be shifted to the UAE"
+                                        itemprop="image" class="cb-lst-img lazy-loading"
+                                        source="https://static.cricbuzz.com/a/img/v1/205x152/i1/c385897/jay-shah-confirmed-to-cricbuzz.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-nws-time">
+                                    <a class="cb-text-link" href="" title="NEWS">NEWS</a><span
+                                        class="cb-dot">&nbsp;&#8226;&nbsp;</span>IPL 2024
+                                </div>
+                                <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="Jay Shah denies IPL shift to UAE">Jay Shah denies IPL shift to UAE</a>
+                                </h2>
+                                <div class="cb-nws-intr">
+                                    With the polling dates now confirmed, the BCCI is expected
+                                    to release the full schedule for the IPL
+                                </div>
+                                <div><span class="cb-nws-time">17h ago</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="205" />
+                                <meta itemprop="height" content="152" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/205x152/i1/c385860/the-wpl-is-set-crown-a-new-cha.jpg" />
+                                <a href=""
+                                    title="Final duel awaits RCB and DC in a bid for the crown"><img height="152"
+                                        width="205" alt="The WPL is set crown a new champion, who will claim it?"
+                                        title="The WPL is set crown a new champion, who will claim it?" itemprop="image"
+                                        class="cb-lst-img lazy-loading"
+                                        source="https://static.cricbuzz.com/a/img/v1/205x152/i1/c385860/the-wpl-is-set-crown-a-new-cha.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-nws-time">
+                                    PREVIEWS<span class="cb-dot">&nbsp;&#8226;&nbsp;</span>WPL
+                                    FINAL, 2024
+                                </div>
+                                <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="Final duel awaits RCB and DC in a bid for the crown">Final duel awaits
+                                        RCB and DC in a bid for the crown</a>
+                                </h2>
+                                <div class="cb-nws-intr">
+                                    RCB has shown that they can be giant-killers on their day
+                                    while DC has been quietly efficient all along
+                                </div>
+                                <div><span class="cb-nws-time">17h ago</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="205" />
+                                <meta itemprop="height" content="152" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/205x152/i1/c385837/sri-lankas-batting-coach-prai.jpg" />
+                                <a href=""
+                                    title="We haven&#39;t played our A game yet - Thilina Kandamby"><img height="152"
+                                        width="205"
+                                        alt="Sri Lanka&#39;s batting coach praised Pathum Nissanka and Charith Asalanka who played key roles in the team&#39;s win in the second ODI"
+                                        title="Sri Lanka&#39;s batting coach praised Pathum Nissanka and Charith Asalanka who played key roles in the team&#39;s win in the second ODI"
+                                        itemprop="image" class="cb-lst-img lazy-loading"
+                                        source="https://static.cricbuzz.com/a/img/v1/205x152/i1/c385837/sri-lankas-batting-coach-prai.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-nws-time">
+                                    <a class="cb-text-link" href="" title="NEWS">NEWS</a><span
+                                        class="cb-dot">&nbsp;&#8226;&nbsp;</span>SRI LANKA
+                                    TOUR OF BANGLADESH, 2024
+                                </div>
+                                <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="We haven&#39;t played our A game yet - Thilina Kandamby">We haven't
+                                        played our A game yet - Thilina Kandamby</a>
+                                </h2>
+                                <div class="cb-nws-intr">
+                                    Sri Lanka's batting coach expects dew won't be a factor in
+                                    the third ODI with the match being a day game
+                                </div>
+                                <div><span class="cb-nws-time">18h ago</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-lg">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="205" />
+                                <meta itemprop="height" content="152" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/205x152/i1/c385780/javed-will-work-with-the-team.jpg" />
+                                <a href=""
+                                    title="SLC ropes in Aaqib Javed as fast-bowling coach "><img height="152"
+                                        width="205"
+                                        alt="Javed will work with the team until the end of the T20 WC this year."
+                                        title="Javed will work with the team until the end of the T20 WC this year."
+                                        itemprop="image" class="cb-lst-img lazy-loading"
+                                        source="https://static.cricbuzz.com/a/img/v1/205x152/i1/c385780/javed-will-work-with-the-team.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-nws-time">
+                                    <a class="cb-text-link" href="" title="NEWS">NEWS</a><span
+                                        class="cb-dot">&nbsp;&#8226;&nbsp;</span>SRI LANKA
+                                    CRICKET
+                                </div>
+                                <h2 class="cb-nws-hdln cb-font-18 line-ht24">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="SLC ropes in Aaqib Javed as fast-bowling coach ">SLC ropes in Aaqib Javed
+                                        as fast-bowling coach
+                                    </a>
+                                </h2>
+                                <div class="cb-nws-intr">
+                                    The appointment is on a short-term basis with Javed set to
+                                    work with the team till the end of the T20 World Cup
+                                </div>
+                                <div><span class="cb-nws-time">21h ago</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cb-col cb-col-33 cb-col-rt">
+                    <div id="mpu" class="ad-unit cb-col cb-col-100" style="min-height: 250px"></div>
+                    <div class="cb-col cb-col-100 cb-sr-hist-pad" id="latest-photos-mod" gtm-label="news list">
+                        <h4 class="cb-ltst-hdr">LATEST PHOTOS</h4>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-sm">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="100" />
+                                <meta itemprop="height" content="77" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/100x77/i1/c385023/india-vs-england-5th-test-da.jpg" />
+                                <a href=""
+                                    title="India vs England, 5th Test, Day 3"><img height="77" width="100"
+                                        alt="India vs England, 5th Test, Day 3"
+                                        title="India vs England, 5th Test, Day 3" itemprop="image" class="cb-lst-img"
+                                        src="https://static.cricbuzz.com/a/img/v1/100x77/i1/c385023/india-vs-england-5th-test-da.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-ltst-wgt-hdr">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="India vs England, 5th Test, Day 3">India vs England, 5th Test, Day 3</a>
+                                </div>
+                                <div><span class="cb-nws-time">Sat, Mar 09 2024</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-sm">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="100" />
+                                <meta itemprop="height" content="77" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/100x77/i1/c384699/india-vs-england-5th-test-da.jpg" />
+                                <a href=""
+                                    title="India vs England, 5th Test, Day 2 "><img height="77" width="100"
+                                        alt="India vs England, 5th Test, Day 2 "
+                                        title="India vs England, 5th Test, Day 2 " itemprop="image" class="cb-lst-img"
+                                        src="https://static.cricbuzz.com/a/img/v1/100x77/i1/c384699/india-vs-england-5th-test-da.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-ltst-wgt-hdr">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="India vs England, 5th Test, Day 2 ">India vs England, 5th Test, Day 2
+                                    </a>
+                                </div>
+                                <div><span class="cb-nws-time">Fri, Mar 08 2024</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-sm">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="100" />
+                                <meta itemprop="height" content="77" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/100x77/i1/c384171/india-vs-england-5th-test-da.jpg" />
+                                <a href=""
+                                    title="India vs England, 5th Test, Day 1 "><img height="77" width="100"
+                                        alt="India vs England, 5th Test, Day 1 "
+                                        title="India vs England, 5th Test, Day 1 " itemprop="image" class="cb-lst-img"
+                                        src="https://static.cricbuzz.com/a/img/v1/100x77/i1/c384171/india-vs-england-5th-test-da.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-ltst-wgt-hdr">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="India vs England, 5th Test, Day 1 ">India vs England, 5th Test, Day 1
+                                    </a>
+                                </div>
+                                <div><span class="cb-nws-time">Thu, Mar 07 2024</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-sm">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="100" />
+                                <meta itemprop="height" content="77" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/100x77/i1/c382810/india-vs-england-4th-test-da.jpg" />
+                                <a href=""
+                                    title="India vs England, 4th Test, Day 4"><img height="77" width="100"
+                                        alt="India vs England, 4th Test, Day 4"
+                                        title="India vs England, 4th Test, Day 4" itemprop="image" class="cb-lst-img"
+                                        src="https://static.cricbuzz.com/a/img/v1/100x77/i1/c382810/india-vs-england-4th-test-da.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-ltst-wgt-hdr">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="India vs England, 4th Test, Day 4">India vs England, 4th Test, Day 4</a>
+                                </div>
+                                <div><span class="cb-nws-time">Mon, Feb 26 2024</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-sm">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="100" />
+                                <meta itemprop="height" content="77" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/100x77/i1/c382397/india-vs-england-4th-test-da.jpg" />
+                                <a href=""
+                                    title="India vs England, 4th Test, Day 3"><img height="77" width="100"
+                                        alt="India vs England, 4th Test, Day 3"
+                                        title="India vs England, 4th Test, Day 3" itemprop="image" class="cb-lst-img"
+                                        src="https://static.cricbuzz.com/a/img/v1/100x77/i1/c382397/india-vs-england-4th-test-da.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-ltst-wgt-hdr">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="India vs England, 4th Test, Day 3">India vs England, 4th Test, Day 3</a>
+                                </div>
+                                <div><span class="cb-nws-time">Sun, Feb 25 2024</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-lst-itm cb-pos-rel cb-lst-itm-sm">
+                            <div class="cb-col cb-col-33 cb-pos-rel" itemscope itemtype="https://schema.org/ImageObject"
+                                itemprop="image">
+                                <meta itemprop="width" content="100" />
+                                <meta itemprop="height" content="77" />
+                                <meta itemprop="url"
+                                    content="https:https://static.cricbuzz.com/a/img/v1/100x77/i1/c382097/india-vs-england-4th-test-da.jpg" />
+                                <a href=""
+                                    title="India vs England, 4th Test, Day 2"><img height="77" width="100"
+                                        alt="India vs England, 4th Test, Day 2"
+                                        title="India vs England, 4th Test, Day 2" itemprop="image" class="cb-lst-img"
+                                        src="https://static.cricbuzz.com/a/img/v1/100x77/i1/c382097/india-vs-england-4th-test-da.jpg"
+                                        style="padding: 0px" /></a>
+                            </div>
+                            <div class="cb-col-67 cb-nws-lst-rt cb-col cb-col-text-container">
+                                <div class="cb-ltst-wgt-hdr">
+                                    <a class="cb-nws-hdln-ancr text-hvr-underline"
+                                        href=""
+                                        title="India vs England, 4th Test, Day 2">India vs England, 4th Test, Day 2</a>
+                                </div>
+                                <div><span class="cb-nws-time">Sat, Feb 24 2024</span></div>
+                            </div>
+                        </div>
+                        <div class="cb-col cb-col-100 cb-more-btn-cntnr">
+                            <a title="Click to view more Photos" href="/cricket-photo-gallery" class="cb-more-btn">More
+                                Photos</a>
+                        </div>
+                    </div>
+                    <div id="mpu2" class="ad-unit cb-col cb-col-100 cb-nav-hdr" style="margin-top: 5px"></div>
+
+                    <div id="mpu3" class="ad-unit cb-col cb-col-100"></div>
+                </div>
+            </div>
+
+            <div id="news-list-bottom" style="clear: both"></div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="logoforfooter">
+            <img width="100px" class="logoforfooterimg" src="https://www.cricbuzz.com/images/cb_logo.svg" alt="">
+        </div>
+        <div class="footerlines">
+            <div class="footerline1">
+                <h3>MOBILE SITE & APPS</h3>
+
+                <p><i class="fas fa-globe"></i>m.cricbuzz.com</p>
+                <p> <i class="fas fa-robot"></i>Android</p>
+                <p> <i class="fas fa-apple-alt"></i></i> iOS</p>
+            </div>
+
+            <div class="footerline2">
+                <h3>FOLLOW US ON</h3>
+                <p> <i class="fab fa-facebook-f"></i>facebook</p>
+
+                <p> <i class="fab fa-youtube"></i>youtube</p>
+                <p> <i class="fab fa-pinterest"></i>Pinterest</p>
+                <p> <i class="fab fa-twitter-square"></i>twitter</p>
+            </div>
+
+            <div class="footerline3">
+                <h3>COMPANY</h3>
+                <p>Careers</p>
+                <p>Advertise</p>
+                <p>Privacy Policy</p>
+                <p>Terms of Use</p>
+                <p>Cricbuzz TV Ads</p>
+
+            </div>
+
+
+        </div>
+        <h4>© 2024 Cricbuzz.com, By Prabhat Ranjan & Teams All rights reserved | The Times of India | Navbharat Times
+        </h4>
+    </div>
+</body>
+
+</html>
+
+<script src="NavBar.js"></script>
