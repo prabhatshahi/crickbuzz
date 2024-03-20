@@ -20,7 +20,7 @@ This project is a clone of the popular cricket news and live scores website, Cri
 ## Team Members
 
 - Prabhat
-- Vivek
+- 
 
 ## Setup Instructions
 
