@@ -8,10 +8,17 @@ function homePage() {
 }
 var emailData = [];
 var emailObj = {
+<<<<<<< HEAD
   email: "ranjanprabhat5@gmail.com",
   gmail: "vivek@gamil.com",
   tmail: "s@gmail.com",
   cmail: "sh@gmail.com",
+=======
+  email: "ranjanprabhat@gmail.com",
+  gmail: "vivek@gamil.com",
+  tmail: "prabhat@gmail.com",
+  cmail: "shahi@gmail.com",
+>>>>>>> 031c48493fb674c0d4c1b837c1f69b5df6e357f6
 };
 emailData.push(emailObj);
 localStorage.setItem("cricbuzzEmail", JSON.stringify(emailData));
