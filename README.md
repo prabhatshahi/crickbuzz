@@ -20,7 +20,8 @@ This project is a clone of the popular cricket news and live scores website, Cri
 ## Team Members
 
 - Prabhat
-- 
+-##Live Deployment
+https://crickbuz-prabhat.netlify.app
 
 ## Setup Instructions
 
